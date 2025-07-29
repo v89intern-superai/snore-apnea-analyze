@@ -1,0 +1,1 @@
+# Human-Activity-Recognition-with-YOLOv12-for-Smart-Cities
