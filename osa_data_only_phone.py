@@ -5,6 +5,7 @@ import numpy as np
 from glob import glob
 from typing import List, Tuple
 import json
+from datetime import datetime
 
 
 class OSAData:
@@ -25,6 +26,27 @@ class OSAData:
         except Exception as e:
             print(f"Error loading annotations: {e}")
             return {}
+
+    @staticmethod
+    def str2seconds(timestr: str) -> int:
+        """Convert 'HH:MM:SS' string to seconds."""
+        try:
+            t = datetime.strptime(timestr, "%H:%M:%S")
+            return t.hour * 3600 + t.minute * 60 + t.second
+        except Exception as e:
+            print(f"Error converting time string: {e}")
+            return 0
+
+    @staticmethod
+    def is_in_problem_interval(ts: int, intervals: list) -> bool:
+        """
+        Check if timestamp (in seconds) is in any of the given intervals.
+        Each interval should be [start, end] in seconds.
+        """
+        for interval in intervals:
+            if interval[0] <= ts <= interval[1]:
+                return True
+        return False
 
     def load_data(self):
         """Load all *_phone.wav and *_annotation.json pairs in the data folder."""
