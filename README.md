@@ -1,1 +1,2 @@
-อันนี้ ผมเอาไว้ทดสอบโค้ด Fall Detection คนอื่น อันไหนเวิร์ค ไม่เวิร์ค
+Snore analyze for apnea detection
+hands-on + some reserch
