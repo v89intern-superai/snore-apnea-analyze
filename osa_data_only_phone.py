@@ -49,7 +49,7 @@ class OSAData:
         return False
 
     def load_data(self):
-        """Load all *_phone.wav and *_annotation.json pairs in the data folder."""
+        """Load all *_phone.wav and *_annotation.json pairs in tshe data folder."""
         total = len(self.phone_files)
         for idx, phone_file in enumerate(self.phone_files, start=1):
             # Match annotation file by prefix
