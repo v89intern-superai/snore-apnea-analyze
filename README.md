@@ -4,4 +4,7 @@
 ## Data Snore
 ```python
 !pip install gdown
-!gdown --folder https://drive.google.com/drive/folders/1dbi9Ddt6V9_WM6pzeriVJWtCT4KAud2g
+!gdown --folder 1dbi9Ddt6V9_WM6pzeriVJWtCT4KAud2g
+
+หรือจะไปโหลดมาลง local ก็ได้นะครับ
+https://drive.google.com/drive/folders/1dbi9Ddt6V9_WM6pzeriVJWtCT4KAud2g
