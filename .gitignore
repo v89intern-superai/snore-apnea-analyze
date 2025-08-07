@@ -1,0 +1,19 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# data files
+data/
+*.wav
+*.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE/editor
+.vscode/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
