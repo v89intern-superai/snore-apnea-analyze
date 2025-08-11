@@ -201,3 +201,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# command line use
+# python "/Users/gusgoodman/Documents/V89/snore-apnea-analyze/EDF_RML/rml_to_csv.py" \ --input "/Users/gusgoodman/Documents/V89/data_2" \ --output "/Users/gusgoodman/Documents/V89/rml_csv"
