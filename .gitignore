@@ -43,8 +43,11 @@ runs/                 # TensorBoard
 lightning_logs/
 checkpoints/
 outputs/
-eval_out/             # from our script
-osa_wav2vec2_ckpt/    # from our script
+eval_out/             
+osa_wav2vec2_ckpt/  
+osa_wav2vec2_binary_best/
+osa_wav2vec2_binary_final/
+osa_wav2vec2_binary_fixed_best/
 .cache/
 hf_cache/
 huggingface/
