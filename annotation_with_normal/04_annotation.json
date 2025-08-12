@@ -1,0 +1,579 @@
+{
+    "record_start": 77661.0,
+    "awake_intervals": [
+        [
+            85344.0,
+            85554.0
+        ],
+        [
+            85648.0,
+            85673.0
+        ],
+        [
+            87802.0,
+            87839.0
+        ],
+        [
+            88674.0,
+            88702.0
+        ],
+        [
+            89331.0,
+            90237.0
+        ],
+        [
+            90565.0,
+            90983.0
+        ],
+        [
+            91072.0,
+            91105.0
+        ],
+        [
+            91225.0,
+            91282.0
+        ],
+        [
+            91342.0,
+            91380.0
+        ],
+        [
+            91432.0,
+            91465.0
+        ],
+        [
+            91553.0,
+            91612.0
+        ],
+        [
+            91642.0,
+            92368.0
+        ],
+        [
+            92422.0,
+            92485.0
+        ],
+        [
+            92545.0,
+            92571.0
+        ],
+        [
+            92632.0,
+            92661.0
+        ],
+        [
+            93473.0,
+            93502.0
+        ],
+        [
+            93533.0,
+            93561.0
+        ],
+        [
+            93626.0,
+            93651.0
+        ],
+        [
+            93682.0,
+            95512.0
+        ],
+        [
+            95697.0,
+            95727.0
+        ],
+        [
+            98665.0,
+            98697.0
+        ],
+        [
+            106193.0,
+            106231.0
+        ],
+        [
+            107543.0,
+            107573.0
+        ],
+        [
+            107992.0,
+            108022.0
+        ],
+        [
+            113273.0,
+            113306.0
+        ],
+        [
+            114594.0,
+            114627.0
+        ],
+        [
+            114834.0,
+            114861.0
+        ],
+        [
+            114898.0,
+            116156.0
+        ],
+        [
+            114898.0,
+            116156.0
+        ]
+    ],
+    "events": [
+        {
+            "event_type": "hypo",
+            "evnet_start": 85808.0,
+            "event_duration": 22.0,
+            "sleep_stage": "N1"
+        },
+        {
+            "event_type": "hypo",
+            "evnet_start": 87851.0,
+            "event_duration": 20.2,
+            "sleep_stage": "N1"
+        },
+        {
+            "event_type": "hypo",
+            "evnet_start": 88334.0,
+            "event_duration": 30.9,
+            "sleep_stage": "N2"
+        },
+        {
+            "event_type": "hypo",
+            "evnet_start": 88428.0,
+            "event_duration": 27.8,
+            "sleep_stage": "N2"
+        },
+        {
+            "event_type": "hypo",
+            "evnet_start": 89869.0,
+            "event_duration": 31.1,
+            "sleep_stage": "W"
+        },
+        {
+            "event_type": "hypo",
+            "evnet_start": 90565.0,
+            "event_duration": 14.7,
+            "sleep_stage": "W"
+        },
+        {
+            "event_type": "hypo",
+            "evnet_start": 91061.0,
+            "event_duration": 15.3,
+            "sleep_stage": "N1"
+        },
+        {
+            "event_type": "hypo",
+            "evnet_start": 91218.0,
+            "event_duration": 14.0,
+            "sleep_stage": "N1"
+        },
+        {
+            "event_type": "hypo",
+            "evnet_start": 93505.0,
+            "event_duration": 30.2,
+            "sleep_stage": "N1"
+        },
+        {
+            "event_type": "hypo",
+            "evnet_start": 93567.0,
+            "event_duration": 42.1,
+            "sleep_stage": "N1"
+        },
+        {
+            "event_type": "hypo",
+            "evnet_start": 93626.0,
+            "event_duration": 30.2,
+            "sleep_stage": "W"
+        },
+        {
+            "event_type": "hypo",
+            "evnet_start": 96132.0,
+            "event_duration": 18.7,
+            "sleep_stage": "N2"
+        },
+        {
+            "event_type": "hypo",
+            "evnet_start": 98885.0,
+            "event_duration": 24.5,
+            "sleep_stage": "N2"
+        },
+        {
+            "event_type": "hypo",
+            "evnet_start": 99072.0,
+            "event_duration": 24.0,
+            "sleep_stage": "N2"
+        },
+        {
+            "event_type": "hypo",
+            "evnet_start": 99179.0,
+            "event_duration": 25.4,
+            "sleep_stage": "N1"
+        },
+        {
+            "event_type": "hypo",
+            "evnet_start": 99280.0,
+            "event_duration": 45.2,
+            "sleep_stage": "N2"
+        },
+        {
+            "event_type": "hypo",
+            "evnet_start": 100208.0,
+            "event_duration": 26.7,
+            "sleep_stage": "N2"
+        },
+        {
+            "event_type": "hypo",
+            "evnet_start": 100475.0,
+            "event_duration": 19.3,
+            "sleep_stage": "N2"
+        },
+        {
+            "event_type": "hypo",
+            "evnet_start": 100510.0,
+            "event_duration": 18.9,
+            "sleep_stage": "N1"
+        },
+        {
+            "event_type": "hypo",
+            "evnet_start": 100541.0,
+            "event_duration": 24.0,
+            "sleep_stage": "N1"
+        },
+        {
+            "event_type": "hypo",
+            "evnet_start": 100624.0,
+            "event_duration": 21.6,
+            "sleep_stage": "N2"
+        },
+        {
+            "event_type": "hypo",
+            "evnet_start": 100685.0,
+            "event_duration": 25.8,
+            "sleep_stage": "N2"
+        },
+        {
+            "event_type": "hypo",
+            "evnet_start": 100733.0,
+            "event_duration": 31.8,
+            "sleep_stage": "N2"
+        },
+        {
+            "event_type": "hypo",
+            "evnet_start": 100836.0,
+            "event_duration": 17.6,
+            "sleep_stage": "N2"
+        },
+        {
+            "event_type": "hypo",
+            "evnet_start": 100890.0,
+            "event_duration": 44.0,
+            "sleep_stage": "N2"
+        },
+        {
+            "event_type": "hypo",
+            "evnet_start": 101184.0,
+            "event_duration": 20.9,
+            "sleep_stage": "R"
+        },
+        {
+            "event_type": "hypo",
+            "evnet_start": 107123.0,
+            "event_duration": 24.3,
+            "sleep_stage": "N2"
+        },
+        {
+            "event_type": "hypo",
+            "evnet_start": 107204.0,
+            "event_duration": 19.3,
+            "sleep_stage": "N2"
+        },
+        {
+            "event_type": "hypo",
+            "evnet_start": 107242.0,
+            "event_duration": 30.5,
+            "sleep_stage": "N2"
+        },
+        {
+            "event_type": "hypo",
+            "evnet_start": 107580.0,
+            "event_duration": 24.7,
+            "sleep_stage": "N1"
+        },
+        {
+            "event_type": "hypo",
+            "evnet_start": 107682.0,
+            "event_duration": 18.7,
+            "sleep_stage": "N2"
+        },
+        {
+            "event_type": "hypo",
+            "evnet_start": 108085.0,
+            "event_duration": 46.7,
+            "sleep_stage": "N2"
+        },
+        {
+            "event_type": "hypo",
+            "evnet_start": 108149.0,
+            "event_duration": 20.0,
+            "sleep_stage": "N1"
+        },
+        {
+            "event_type": "hypo",
+            "evnet_start": 108290.0,
+            "event_duration": 24.2,
+            "sleep_stage": "N1"
+        },
+        {
+            "event_type": "hypo",
+            "evnet_start": 110645.0,
+            "event_duration": 11.8,
+            "sleep_stage": "N1"
+        },
+        {
+            "event_type": "hypo",
+            "evnet_start": 113261.0,
+            "event_duration": 14.3,
+            "sleep_stage": "N2"
+        },
+        {
+            "event_type": "hypo",
+            "evnet_start": 113587.0,
+            "event_duration": 16.7,
+            "sleep_stage": "N1"
+        },
+        {
+            "event_type": "hypo",
+            "evnet_start": 114809.0,
+            "event_duration": 20.5,
+            "sleep_stage": "N2"
+        },
+        {
+            "event_type": "normal",
+            "evnet_start": 91232.0,
+            "event_duration": 2273.0,
+            "sleep_stage": "N/A"
+        },
+        {
+            "event_type": "normal",
+            "evnet_start": 100234.7,
+            "event_duration": 240.29999999999927,
+            "sleep_stage": "N/A"
+        },
+        {
+            "event_type": "normal",
+            "evnet_start": 107147.3,
+            "event_duration": 56.70000000000073,
+            "sleep_stage": "N/A"
+        },
+        {
+            "event_type": "normal",
+            "evnet_start": 107223.3,
+            "event_duration": 18.700000000000728,
+            "sleep_stage": "N/A"
+        },
+        {
+            "event_type": "normal",
+            "evnet_start": 90579.7,
+            "event_duration": 481.2999999999993,
+            "sleep_stage": "N/A"
+        },
+        {
+            "event_type": "normal",
+            "evnet_start": 100764.8,
+            "event_duration": 71.20000000000073,
+            "sleep_stage": "N/A"
+        },
+        {
+            "event_type": "normal",
+            "evnet_start": 99325.2,
+            "event_duration": 882.7999999999993,
+            "sleep_stage": "N/A"
+        },
+        {
+            "event_type": "normal",
+            "evnet_start": 100710.8,
+            "event_duration": 22.200000000000728,
+            "sleep_stage": "N/A"
+        },
+        {
+            "event_type": "normal",
+            "evnet_start": 100494.3,
+            "event_duration": 15.700000000000728,
+            "sleep_stage": "N/A"
+        },
+        {
+            "event_type": "normal",
+            "evnet_start": 108314.2,
+            "event_duration": 2330.7999999999993,
+            "sleep_stage": "N/A"
+        },
+        {
+            "event_type": "normal",
+            "evnet_start": 88364.9,
+            "event_duration": 63.100000000000364,
+            "sleep_stage": "N/A"
+        },
+        {
+            "event_type": "normal",
+            "evnet_start": 98909.5,
+            "event_duration": 162.5,
+            "sleep_stage": "N/A"
+        },
+        {
+            "event_type": "normal",
+            "evnet_start": 107700.7,
+            "event_duration": 384.2999999999993,
+            "sleep_stage": "N/A"
+        },
+        {
+            "event_type": "normal",
+            "evnet_start": 107604.7,
+            "event_duration": 77.29999999999927,
+            "sleep_stage": "N/A"
+        },
+        {
+            "event_type": "normal",
+            "evnet_start": 113275.3,
+            "event_duration": 311.6999999999971,
+            "sleep_stage": "N/A"
+        },
+        {
+            "event_type": "normal",
+            "evnet_start": 77661.0,
+            "event_duration": 8147.0,
+            "sleep_stage": "N/A"
+        },
+        {
+            "event_type": "normal",
+            "evnet_start": 96150.7,
+            "event_duration": 2734.2999999999993,
+            "sleep_stage": "N/A"
+        },
+        {
+            "event_type": "normal",
+            "evnet_start": 100645.6,
+            "event_duration": 39.400000000001455,
+            "sleep_stage": "N/A"
+        },
+        {
+            "event_type": "normal",
+            "evnet_start": 93656.2,
+            "event_duration": 2475.7999999999993,
+            "sleep_stage": "N/A"
+        },
+        {
+            "event_type": "normal",
+            "evnet_start": 100528.9,
+            "event_duration": 12.099999999998545,
+            "sleep_stage": "N/A"
+        },
+        {
+            "event_type": "normal",
+            "evnet_start": 101204.9,
+            "event_duration": 5918.0999999999985,
+            "sleep_stage": "N/A"
+        },
+        {
+            "event_type": "normal",
+            "evnet_start": 110656.8,
+            "event_duration": 2604.199999999997,
+            "sleep_stage": "N/A"
+        },
+        {
+            "event_type": "normal",
+            "evnet_start": 108169.0,
+            "event_duration": 121.0,
+            "sleep_stage": "N/A"
+        },
+        {
+            "event_type": "normal",
+            "evnet_start": 100565.0,
+            "event_duration": 59.0,
+            "sleep_stage": "N/A"
+        },
+        {
+            "event_type": "normal",
+            "evnet_start": 93535.2,
+            "event_duration": 31.799999999999272,
+            "sleep_stage": "N/A"
+        },
+        {
+            "event_type": "normal",
+            "evnet_start": 99096.0,
+            "event_duration": 83.0,
+            "sleep_stage": "N/A"
+        },
+        {
+            "event_type": "normal",
+            "evnet_start": 91076.3,
+            "event_duration": 141.70000000000073,
+            "sleep_stage": "N/A"
+        },
+        {
+            "event_type": "normal",
+            "evnet_start": 100853.6,
+            "event_duration": 36.400000000001455,
+            "sleep_stage": "N/A"
+        },
+        {
+            "event_type": "normal",
+            "evnet_start": 88455.8,
+            "event_duration": 1413.2000000000007,
+            "sleep_stage": "N/A"
+        },
+        {
+            "event_type": "normal",
+            "evnet_start": 93609.1,
+            "event_duration": 16.899999999999636,
+            "sleep_stage": "N/A"
+        },
+        {
+            "event_type": "normal",
+            "evnet_start": 99204.4,
+            "event_duration": 75.59999999999854,
+            "sleep_stage": "N/A"
+        },
+        {
+            "event_type": "normal",
+            "evnet_start": 100934.0,
+            "event_duration": 250.0,
+            "sleep_stage": "N/A"
+        },
+        {
+            "event_type": "normal",
+            "evnet_start": 87871.2,
+            "event_duration": 462.7999999999993,
+            "sleep_stage": "N/A"
+        },
+        {
+            "event_type": "normal",
+            "evnet_start": 85830.0,
+            "event_duration": 2021.0,
+            "sleep_stage": "N/A"
+        },
+        {
+            "event_type": "normal",
+            "evnet_start": 107272.5,
+            "event_duration": 307.5,
+            "sleep_stage": "N/A"
+        },
+        {
+            "event_type": "normal",
+            "evnet_start": 108131.7,
+            "event_duration": 17.299999999999272,
+            "sleep_stage": "N/A"
+        },
+        {
+            "event_type": "normal",
+            "evnet_start": 113603.7,
+            "event_duration": 1205.300000000003,
+            "sleep_stage": "N/A"
+        },
+        {
+            "event_type": "normal",
+            "evnet_start": 89900.1,
+            "event_duration": 664.8999999999996,
+            "sleep_stage": "N/A"
+        }
+    ]
+}

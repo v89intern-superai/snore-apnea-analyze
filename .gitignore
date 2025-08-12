@@ -1,19 +1,84 @@
-# Python cache
+# --- Python venv & tooling ---
+.venv/
+venv/
+env/
+ENV/
+.python-version
+# dotenv (secrets)
+.env
+.env.*
+
+# --- Python build/artifacts ---
 __pycache__/
 *.py[cod]
+*.pyd
+*.so
+*.dylib
+build/
+dist/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.tox/
+.nox/
+.coverage*
+htmlcov/
+.mypy_cache/
+.pytype/
+.pyre/
+.ruff_cache/
 
-# data files
+# --- ML / DL outputs ---
+# model weights & checkpoints
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+*.tflite
+*.h5
+# experiment logs
+runs/                 # TensorBoard
+lightning_logs/
+checkpoints/
+outputs/
+eval_out/             # from our script
+osa_wav2vec2_ckpt/    # from our script
+.cache/
+hf_cache/
+huggingface/
+transformers_cache/
+
+# --- Data (optional – keep only if you don't want to commit datasets) ---
 data/
+*.edf
+*.bdf
 *.wav
-*.json
+*.flac
+*.npz
+*.npy
+# keep configs/metadata:
+!*.yaml
+!*.yml
+!*.ini
+!*.toml
+# (ถ้าต้องการแชร์ split indices ให้ "ไม่" ignore โฟลเดอร์นี้)
+# splits/
 
-# Jupyter
+# --- Notebooks ---
 .ipynb_checkpoints/
+# (ถ้าไม่อยาก commit notebook เอง ให้เปิดอันนี้)
+# *.ipynb
 
-# IDE/editor
+# --- IDE / Editors ---
 .vscode/
+.idea/
 *.code-workspace
+.vs/
+.spyproject/
 
-# OS
+# --- OS junk ---
 .DS_Store
 Thumbs.db
+Desktop.ini
