@@ -38,7 +38,7 @@
   "do_lower_case": false,
   "do_normalize": true,
   "eos_token": "</s>",
-  "model_max_length": 1000000000000000019884624838656,
+  "model_max_length": 9223372036854775807,
   "pad_token": "<pad>",
   "processor_class": "Wav2Vec2Processor",
   "replace_word_delimiter_char": " ",
