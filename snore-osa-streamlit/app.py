@@ -17,7 +17,7 @@ DEFAULTS = dict(window_s=5.0, stride_s=1.0, enter=0.6, exit=0.4,
                 min_consec=2, min_ep_sec=10.0, merge_gap_sec=3.0,
                 prob_threshold=0.5, batch_size=64)
 
-CHANNEL_CANDIDATES = ["mic", "audio", "snore", "tracheal", "mic1", "microphone"]
+CHANNEL_CANDIDATES = ["mic"]
 
 # =========================
 # Caching loaders
