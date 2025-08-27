@@ -48,6 +48,12 @@ osa_wav2vec2_ckpt/
 osa_wav2vec2_binary_best/
 osa_wav2vec2_binary_final/
 osa_wav2vec2_binary_fixed_best/
+
+/EDF_RML\binary_wav2vec2_npy_V1
+/EDF_RML\binary_wav2vec2_npy_V3
+/EDF_RML\binary_wav2vec2_npy_V4
+/EDF_RML\binary_wav2vec2_npy_V5
+
 .cache/
 hf_cache/
 huggingface/

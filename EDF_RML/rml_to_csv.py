@@ -204,3 +204,5 @@ if __name__ == "__main__":
 
 # command line use
 # python "/Users/gusgoodman/Documents/V89/snore-apnea-analyze/EDF_RML/rml_to_csv.py" \ --input "/Users/gusgoodman/Documents/V89/data_2" \ --output "/Users/gusgoodman/Documents/V89/rml_csv"
+
+# python "D:\V89\Snore_Apnea_Analyze\EDF_RML\rml_to_csv.py" \ --input "D:\V89\data2\RML" \ --output "D:\V89\Snore_Apnea_Analyze\EDF_RML\data_csv\use_train\each_person_train_csv"

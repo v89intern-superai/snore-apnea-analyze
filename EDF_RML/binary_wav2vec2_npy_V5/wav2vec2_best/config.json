@@ -1,5 +1,4 @@
 {
-  "_name_or_path": "facebook/wav2vec2-base-960h",
   "activation_dropout": 0.1,
   "adapter_attn_dim": null,
   "adapter_kernel_size": 3,
@@ -104,7 +103,7 @@
     1
   ],
   "torch_dtype": "float32",
-  "transformers_version": "4.35.0",
+  "transformers_version": "4.55.4",
   "use_weighted_layer_sum": false,
   "vocab_size": 32,
   "xvector_output_dim": 512
