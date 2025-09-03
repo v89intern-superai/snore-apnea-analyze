@@ -20,4 +20,9 @@ class InferenceDefaults:
     min_ep_sec: float = 10.0
     merge_gap_sec: float = 3.0
 
+    # --- Snore Gate ---
+    snore_high: float = 0.3   # ถ้า >= ส่งเข้า OSA (ลดลงจาก 0.4)
+    snore_low: float = 0.15    # ถ้า < post-filter demote เป็น None (ลดลงจาก 0.2)
+
+
 INF_DEF = InferenceDefaults()
