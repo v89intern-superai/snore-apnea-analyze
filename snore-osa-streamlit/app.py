@@ -89,7 +89,67 @@ if st.button("Analyze"):
     c4.metric("OSA Rate", f"{osa_rate:.1f}%", help="Percentage of segments classified as OSA")
 
     # === Probability timeline ===
-    st.line_chart({"p_OSA": p_osa}, height=220)
+    st.subheader("Analysis Timeline")
+    
+    # Create comprehensive chart data
+    import pandas as pd
+    
+    # Convert times to minutes for better readability
+    times_min = [t/60 for t in times]
+    
+    # Create binary signals for classification results
+    snore_signal = [1 if label == "Snore" else 0 for label in labels]
+    osa_signal = [1 if label == "OSA" else 0 for label in labels]
+    none_signal = [1 if label == "None" else 0 for label in labels]
+    
+    # Create DataFrame for better plotting
+    chart_data = pd.DataFrame({
+        'Time (min)': times_min,
+        'OSA Probability': p_osa,
+        'Snore Detection': snore_signal,
+        'OSA Events': osa_signal,
+        'No Sound': none_signal,
+        'Enter Threshold': [float(enter)] * len(times),
+        'Exit Threshold': [float(exit_)] * len(times)
+    })
+    
+    # Plot comprehensive chart
+    st.line_chart(
+        chart_data.set_index('Time (min)'),
+        height=400,
+        use_container_width=True
+    )
+    
+    # Add explanation
+    st.markdown("""
+    **Chart Legend:**
+    - 🔴 **OSA Probability**: Model confidence that segment contains OSA (0-1)
+    - 🟢 **Snore Detection**: Segments classified as Snore (1=Snore, 0=Not Snore)
+    - 🔵 **OSA Events**: Segments classified as OSA (1=OSA, 0=Not OSA)
+    - ⚫ **No Sound**: Segments with no significant audio (1=Silent, 0=Has Sound)
+    - 🟡 **Enter Threshold**: OSA probability threshold for event start
+    - 🟠 **Exit Threshold**: OSA probability threshold for event end
+    """)
+    
+    # Additional summary chart - Bar chart of segment distribution
+    col1, col2 = st.columns(2)
+    
+    with col1:
+        st.subheader("Segment Distribution")
+        segment_data = pd.DataFrame({
+            'Category': ['Snore', 'OSA', 'Silent/None'],
+            'Count': [snore_count, osa_count, none_count],
+            'Percentage': [snore_rate, osa_rate, 100-osa_rate-snore_rate]
+        })
+        st.bar_chart(segment_data.set_index('Category')['Percentage'])
+    
+    with col2:
+        st.subheader("⏱️ Time Analysis")
+        segment_duration = float(stride_s)  # Duration per segment
+        st.metric("Total Duration", f"{(len(times) * segment_duration / 60):.1f} min")
+        st.metric("Snore Time", f"{(snore_count * segment_duration / 60):.1f} min")
+        st.metric("OSA Time", f"{(osa_count * segment_duration / 60):.1f} min")
+        st.metric("Silent Time", f"{(none_count * segment_duration / 60):.1f} min")
 
     # === Eventization (ใช้ hysteresis + events ตาม prob OSA) ===
     mask = hysteresis_series(p_osa, enter=float(enter), exit=float(exit_), min_consec=int(min_consec))
